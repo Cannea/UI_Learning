@@ -113,22 +113,37 @@
           </button>
         </dt>
       </dl>
-      <div class="new_list"></div>
+      <div class="new_list">
+        <button>
+          <img src="/public/icons/plus.png" alt="icon" />
+          <span class="nav_item_name">New list</span>
+          <img class="new_list" src="/public/icons/plus.png" alt="icon" />
+        </button>
+      </div>
     </nav>
     <main>
-      <ul>
-        <li>
+      <header title="Tasks">
+        <img class="main_icon" src="/public/icons/Tasks.png" alt="main_icon" />
+        <h1>Tasks</h1>
+        <button>
+          <img title="more" src="./public/icons/more.png" alt="more" />
+        </button>
+      </header>
+      <dl class="todo_list">
+        <dt>
           <button>
-            <img src="/public/icons/custom nav item icon.png" alt="icon" />
+            <img src="/public/icons/rec.png" alt="icon" />
           </button>
-          <span class="nav_item_name">Personal</span>
-          <span
-            class="no_of_items_in_nav_item"
-            title="number of items in Personal"
-            >1</span
-          >
-        </li>
-      </ul>
+          <span class="todo_list_name">Windows 10 on kitchen PC</span>
+          <div class="details_of_todo_list_item">
+            <div class="due_date">
+              <img src="/public/icons/My Day.png" alt="icon" />
+              <span>My Day</span>
+            </div>
+          </div>
+          <img title="more" src="./public/icons/more.png" alt="more" />
+        </dt>
+      </dl>
     </main>
   </body>
 </html>

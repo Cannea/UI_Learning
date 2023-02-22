@@ -1,0 +1,7 @@
+.default_nav_items {
+  list-style: none;
+}
+.My_Day_icon {
+  padding-left: 20px;
+  list-style-image: url("/public/icons/My Day.png");
+}
