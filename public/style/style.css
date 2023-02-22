@@ -1,7 +1,51 @@
-.default_nav_items {
-  list-style: none;
+/* Custom Icons */
+.My_Day-icon {
+  background: url('/public/icons/My Day.png') no-repeat;
+  background-size: cover;
 }
-.My_Day_icon {
-  padding-left: 20px;
-  list-style-image: url("/public/icons/My Day.png");
+.Important-icon {
+  background: url('/public/icons/Important.png') no-repeat;
+  background-size: cover;
+}
+.Planned-icon {
+  background: url('/public/icons/Planned.png') no-repeat;
+  background-size: cover;
+}
+.Assigned_to_you-icon {
+  background: url('/public/icons/Assigned to you.png') no-repeat;
+  background-size: cover;
+}
+.Flagged_email-icon {
+  background: url('/public/icons/Flagged email.png') no-repeat;
+  background-size: cover;
+}
+.Tasks-icon {
+  background: url('/public/icons/Tasks.png') no-repeat;
+  background-size: cover;
+}
+.custom_nav_item_icon {
+  background: url('/public/icons/custom nav item icon.png') no-repeat;
+  background-size: cover;
+}
+.plus-icon {
+  background: url('/public/icons/plus.png') no-repeat;
+  background-size: cover;
+}
+.circle-icon {
+  background: url('/public/icons/rec.png') no-repeat;
+  background-size: cover;
+}
+.more-icon {
+  background: url('/public/icons/more.png') no-repeat;
+  background-size: cover;
+}
+.button-icon {
+  background: url('/public/icons/button.png') no-repeat;
+  background-size: cover;
+}
+
+.nav_item_size {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
 }
