@@ -43,6 +43,10 @@
   background: url('/public/icons/button.png') no-repeat;
   background-size: cover;
 }
+.dot-icon {
+  background: url('/public/icons/dot.png') no-repeat;
+  background-size: cover;
+}
 
 .nav_item_size {
   display: inline-block;
